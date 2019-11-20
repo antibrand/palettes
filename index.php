@@ -84,42 +84,49 @@ class AB_Palettes {
 			$suffix = '';
 		}
 
+		// Light color scheme.
 		wp_admin_css_color( 'light', _x( 'Light', 'admin color scheme' ),
 			admin_url( "css/colors/light/colors$suffix.css" ),
 			[ '#e5e5e5', '#999999', '#d64e07', '#04a4cc' ],
 			[ 'base' => '#999999', 'focus' => '#cccccc', 'current' => '#cccccc' ]
 		);
 
+		// Blue color scheme.
 		wp_admin_css_color( 'blue', _x( 'Blue', 'admin color scheme' ),
 			admin_url( "css/colors/blue/colors$suffix.css" ),
 			[ '#096484', '#4796b3', '#52accc', '#74B6CE' ],
 			[ 'base' => '#e5f8ff', 'focus' => '#ffffff', 'current' => '#ffffff' ]
 		);
 
+		// Midnight color scheme.
 		wp_admin_css_color( 'midnight', _x( 'Midnight', 'admin color scheme' ),
 			admin_url( "css/colors/midnight/colors$suffix.css" ),
 			[ '#25282b', '#363b3f', '#69a8bb', '#e14d43' ],
 			[ 'base' => '#f1f2f3', 'focus' => '#ffffff', 'current' => '#ffffff' ]
 		);
 
+		// Sunrise color scheme.
 		wp_admin_css_color( 'sunrise', _x( 'Sunrise', 'admin color scheme' ),
 			admin_url( "css/colors/sunrise/colors$suffix.css" ),
 			[ '#b43c38', '#cf4944', '#dd823b', '#ccaf0b' ],
 			[ 'base' => '#f3f1f1', 'focus' => '#ffffff', 'current' => '#ffffff' ]
 		);
 
+		// Ectoplasm color scheme.
 		wp_admin_css_color( 'ectoplasm', _x( 'Ectoplasm', 'admin color scheme' ),
 			admin_url( "css/colors/ectoplasm/colors$suffix.css" ),
 			[ '#413256', '#523f6d', '#a3b745', '#d46f15' ],
 			[ 'base' => '#ece6f6', 'focus' => '#fff', 'current' => '#fffffffff' ]
 		);
 
+		// Ocean color scheme.
 		wp_admin_css_color( 'ocean', _x( 'Ocean', 'admin color scheme' ),
 			admin_url( "css/colors/ocean/colors$suffix.css" ),
 			[ '#627c83', '#738e96', '#9ebaa0', '#aa9d88' ],
 			[ 'base' => '#f2fcff', 'focus' => '#ffffff', 'current' => '#ffffff' ]
 		);
 
+		// Coffee color scheme.
 		wp_admin_css_color( 'coffee', _x( 'Coffee', 'admin color scheme' ),
 			admin_url( "css/colors/coffee/colors$suffix.css" ),
 			[ '#46403c', '#59524c', '#c7a589', '#9ea476' ],
