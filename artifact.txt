@@ -1,0 +1,16 @@
+The following text is an artifact of the original plugin.
+
+=== Admin Color Schemes ===
+
+Contributors: wordpressdotorg, ryelle, melchoyce, drw158, littlethingsstudio
+Requires at least: 3.8
+Tested up to: 4.4
+Stable tag: trunk
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Color schemes in this pack designed by Kate Whitley, Dave Whitley, Mel Choyce, and Kelly Dwan.
+
+1. Aubergine by Kate Whitley & Kelly Dwan
+2. Flat by Mel Choyce
+3. Vineyard by Kate & Dave Whitley
